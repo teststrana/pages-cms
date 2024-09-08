@@ -86,7 +86,7 @@ export function RepoBranches() {
           {isSubmitting && (<Loader className="ml-2 h-4 w-4 animate-spin" />)}
         </Button>
       </header>
-      <main className="flex flex-col gap-y-1">
+      <main className="flex flex-col gap-y-1 overflow-auto max-h-[calc(100vh-9rem)] scrollbar">
         {filteredBranches && filteredBranches.length > 0
           ? filteredBranches.map(branch => (
             <Link

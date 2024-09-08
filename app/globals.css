@@ -60,7 +60,6 @@
 
 .scrollbar {
   scrollbar-width: thin;
-  /* scrollbar-color: rgba(var(--bg-background), 0.1) transparent; */
 }
 
 .sonner-spinner {
